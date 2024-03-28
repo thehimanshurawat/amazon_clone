@@ -1,0 +1,343 @@
+*{
+    margin: 0px;
+    font-family: Arial;
+    border: border-box;
+    padding: 0px;
+}
+.navbar{
+    height: 60px;
+    width: 1455px;
+    background-color: #141C24;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: fixed;
+    z-index: 5;
+}
+.nav-logo{
+    height: 50px;
+    width: 100px;
+}
+.logo{
+    height: 50px;
+    width: 100%;
+    background-image: url(/asstets/amazon_logo.png);
+    background-size: cover;
+}
+.border{
+    border: 1.5px solid transparent;
+}
+.border:hover{
+    border: 1.5px solid white;
+}
+
+/* 2nd box in navbar*/
+
+.add-first{
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin-left: 15px;
+}
+.add-second{
+    color: white;
+    margin-left: 3px;
+}
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+
+/* 3rd box in navbar */
+
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    width: 825px;
+    height: 40px;
+    background-color: pink;
+    border-radius: 4px;
+}
+.nav-search:hover{
+    border: 2px solid orange;
+}
+
+.search-select{
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+}
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+.search-icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: #febd68;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color: #141C24;
+}
+
+/*4th box in navbar */
+
+.nav-lan{
+    display: flex;
+    align-items: center;
+}
+
+.select-lan{
+    background-color: #141C24;
+    color: white;
+    border: none;
+    width: 50px;
+    text-align: center;
+
+}
+
+.lan-flag{
+    height: 15px;
+    width: 19px;
+    background-image: url(/asstets/flag.jpg);
+    background-size: cover;
+}
+
+/* 5th and 6th box in navbar */
+
+#first-span{
+    font-size: 0.7rem;
+    margin-left: 5px;
+}
+.nav-second{
+    font-size: 0.85rem;
+    font-weight: 700;
+    border: none;
+    background-color: #141C24;
+    color: white;
+}
+#second-span{
+    font-size: 0.7rem;
+}
+
+/* 7th box in navbar*/
+.nav-cart i{
+    font-size: 30px;
+}
+.nav-cart{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+/* panel */
+.panel{
+    display: flex;
+    background-color: #242C3C;
+    color: white;
+    height: 39px;
+    width: 1437px;
+    align-items: center;
+    padding-left: 18px;
+    position: absolute;
+    top: 60px;
+}
+.panel-all{
+    font-weight: bolder;
+}
+.panel-opt{
+    font-size: small;
+}
+.nolink{
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+
+/* hero section */
+.hero-section{
+    background-image: url(/asstets/hero_image.jpg);
+    background-size: cover;
+    height: 600px;
+    width: 1455px;
+    position: absolute;
+    top: 99px;
+}
+
+/* shoping section */
+.shop-section{
+    position: absolute;
+    top: 350px;
+    display: flex;
+    flex-wrap: wrap;
+    
+   
+}
+.shop-second-section{
+    background-image: url(/asstets/radial.png);
+    background-size: cover;
+    height: 244px;
+    width: 1455px;
+    position: absolute;
+    top: 160px;
+    
+}
+/* shoping items */
+
+.box{
+    height: 420px;
+    width: 339px;
+    background-color: white;
+    margin-left: 16.75px;
+    z-index: 2;
+    margin-top: 20px;
+    
+    
+}
+.box-img{
+    height: 300px;
+    background-size: cover;
+}
+.box-content{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.box-content p{
+    color: #007185;
+    padding-top: 25px;
+}
+.gray-bg{
+    background-color: #E4E4E4;
+    height: 1379px;
+    width: 1455px;
+    position: absolute;
+    top: 404px;
+    z-index: 1;
+}
+.extra-space{
+    background-color: white;
+    position: absolute;
+    top: 2133px;
+    height: 80px;
+    width: 1426px;
+    display: flex ;
+    padding-left: 29px;
+    align-items: center;
+    margin-top: 24px;
+    padding-bottom: 20px;
+    font-size: 0.85rem;
+    color: black;
+    border-top: 1px solid #e4e4e4;
+    border-bottom: 1px solid #e4e4e4;
+}
+
+.foot-panel1{
+    background-color: #384C5C;
+    position: absolute;
+    top: 2283px;
+    height: 49px;
+    width: 1455px;
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+    color: white;
+}
+.foot-panel2{
+    position: absolute;
+    top: 2332px;
+    height: 363px;
+    width: 1455px;
+    background-color: #222f3e;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 35px;
+    
+}
+ul a{
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 20px;
+    color: #dddddd;
+}
+.foot-panel3{
+    position: absolute;
+    top: 2730px;
+    background-color: #222f3e;
+    height: 107px;
+    width: 1455px;
+    border-top: 0.1px solid #999999;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.logo-footer{
+    height: 50px;
+    width: 100%;
+    background-image: url(/asstets/amazon_logo.png);
+    background-size: contain;
+    margin-left: 500px;
+    
+
+}
+.foot-panel4{
+    position: absolute;
+    top: 2837px;
+    height: 80px;
+    width: 1455px;
+    background-color: #141C24;
+    color: white;
+    font-size: 0.7rem;
+    
+}
+.pages{
+    padding-top: 25px;
+    text-align: center;
+}
+.copyright{
+    text-align: center;
+}
+.last-a{
+    padding-left: 15px;
+}
+.language{
+    height: 28px;
+    width: 1700px;
+    color: #999999;
+    border: 1px solid #999999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    border-radius: 4px;
+}
+.currency{
+    color: #999999;
+    height: 28px;
+    width: 2700px;
+    border: 1px solid #999999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    border-radius: 4px;
+}
+.region{
+    color: #999999;
+    height: 28px;
+    width: 2000px;
+    border: 1px solid #999999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    margin-right: 400px;
+}
